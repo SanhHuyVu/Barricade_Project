@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd5002c7f677184a9c64d75e8b97c8b, type: 3}
+  m_Name: Vegetable_Steew
+  m_EditorClassIdentifier: 
+  itemObject: {fileID: 11400000, guid: e354aadceef6b214396a2468f283e153, type: 2}
+  requiredComponents:
+  - {fileID: 11400000, guid: 357d112aec0df004588967859c582eed, type: 2}
+  - {fileID: 11400000, guid: 357d112aec0df004588967859c582eed, type: 2}
+  - {fileID: 11400000, guid: 4ab96c5b18c79f643a9aad5c32775b79, type: 2}
+  - {fileID: 11400000, guid: 228923d2661281e448ab1d4059a0c9f2, type: 2}
+  - {fileID: 11400000, guid: 333d501aeb1ac1441ad5469a4c964223, type: 2}
+  craftAmount: 2
+  hungerCost: 10
+  spCost: 10

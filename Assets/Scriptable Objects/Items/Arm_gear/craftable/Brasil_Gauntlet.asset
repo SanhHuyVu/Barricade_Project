@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2ec56336b186d4cb00e2b559e57ed4, type: 3}
+  m_Name: Brasil_Gauntlet
+  m_EditorClassIdentifier: 
+  uiDisplay: {fileID: 21300000, guid: daa76fcffabdcf1428e2da241c5285a2, type: 3}
+  stackable: 0
+  isConsumable: 0
+  type: 6
+  model: {fileID: 0}
+  modelPosition: {x: 0, y: 0, z: 0}
+  modelRotation: {x: 0, y: 0, z: 0}
+  groundItemPrefab: {fileID: 3984648018551081435, guid: f8ea05e0ac941614b911216dd468e6c9,
+    type: 3}
+  craftingTime: 5
+  useCoolDown: 0
+  useTime: 0
+  dropChance: 0
+  description: a combat glove used on the mystical island Brasil, which is located
+    on the west side of Ireland. This island can be seen only one day every seven
+    years
+  data:
+    name: Brasil Gauntlet
+    id: -1
+    buffs:
+    - attribute: 1
+      value: 15
+    - attribute: 3
+      value: 4

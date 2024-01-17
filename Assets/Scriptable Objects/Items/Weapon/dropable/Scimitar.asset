@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2ec56336b186d4cb00e2b559e57ed4, type: 3}
+  m_Name: Scimitar
+  m_EditorClassIdentifier: 
+  uiDisplay: {fileID: 21300000, guid: c3599d9ab2dec8140a4c7e15e9e21f67, type: 3}
+  stackable: 0
+  isConsumable: 0
+  type: 3
+  model: {fileID: 317761599150719687, guid: aed2aba496cc33c48912702e1c75451e, type: 3}
+  modelPosition: {x: 0.131, y: 0.026, z: -0.009}
+  modelRotation: {x: 90, y: 0, z: -90}
+  groundItemPrefab: {fileID: 3984648018551081435, guid: f8ea05e0ac941614b911216dd468e6c9,
+    type: 3}
+  craftingTime: 0
+  useCoolDown: 0
+  useTime: 0
+  dropChance: 20
+  description: 
+  data:
+    name: 
+    id: 12
+    buffs:
+    - attribute: 0
+      value: 40

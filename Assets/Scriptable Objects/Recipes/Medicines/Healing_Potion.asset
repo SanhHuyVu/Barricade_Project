@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd5002c7f677184a9c64d75e8b97c8b, type: 3}
+  m_Name: Healing_Potion
+  m_EditorClassIdentifier: 
+  itemObject: {fileID: 11400000, guid: 898652bb976c48443a6161b96b02b6c0, type: 2}
+  requiredComponents:
+  - {fileID: 11400000, guid: 1efce416b942b3c41866f871a75c457b, type: 2}
+  - {fileID: 11400000, guid: aad9abe10b541164daef75b23b14c5f5, type: 2}
+  craftAmount: 1
+  hungerCost: 4
+  spCost: 4

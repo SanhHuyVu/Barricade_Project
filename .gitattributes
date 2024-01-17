@@ -1,0 +1,8 @@
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.unity filter=lfs diff=lfs merge=lfs -text
+*.prefab filter=lfs diff=lfs merge=lfs -text
+Assets/Scenes/GamePlay.unity filter=lfs diff=lfs merge=lfs -text
+[200~ filter=lfs diff=lfs merge=lfs -text
+Assets/Scences/GamePlay.unity filter=lfs diff=lfs merge=lfs -text
+Assets/Prefabs/Map.prefab filter=lfs diff=lfs merge=lfs -text
+GamePlay.unity filter=lfs diff=lfs merge=lfs -text

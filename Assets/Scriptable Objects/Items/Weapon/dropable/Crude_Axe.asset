@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2ec56336b186d4cb00e2b559e57ed4, type: 3}
+  m_Name: Crude_Axe
+  m_EditorClassIdentifier: 
+  uiDisplay: {fileID: 21300000, guid: dfe43b28036a5fb43a17e668a8acab7e, type: 3}
+  stackable: 0
+  isConsumable: 0
+  type: 3
+  model: {fileID: 7222945019930983808, guid: d92fe1ff455a5bd45b1ef40a027c935a, type: 3}
+  modelPosition: {x: 0.2, y: 0.03, z: -0.025}
+  modelRotation: {x: 90, y: 0, z: 90}
+  groundItemPrefab: {fileID: 3984648018551081435, guid: f8ea05e0ac941614b911216dd468e6c9,
+    type: 3}
+  craftingTime: 0
+  useCoolDown: 0
+  useTime: 0
+  dropChance: 80
+  description: 
+  data:
+    name: Crude Axe
+    id: 1
+    buffs:
+    - attribute: 0
+      value: 10

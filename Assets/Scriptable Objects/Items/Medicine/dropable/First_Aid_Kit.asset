@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2ec56336b186d4cb00e2b559e57ed4, type: 3}
+  m_Name: First_Aid_Kit
+  m_EditorClassIdentifier: 
+  uiDisplay: {fileID: 21300000, guid: 207438cb639667c469d143f3af1cb604, type: 3}
+  stackable: 1
+  isConsumable: 1
+  type: 10
+  model: {fileID: 0}
+  modelPosition: {x: 0, y: 0, z: 0}
+  modelRotation: {x: 0, y: 0, z: 0}
+  groundItemPrefab: {fileID: 3984648018551081435, guid: f8ea05e0ac941614b911216dd468e6c9,
+    type: 3}
+  craftingTime: 0
+  useCoolDown: 6
+  useTime: 4
+  dropChance: 30
+  description: your best bet for injuries. When you're in a hurry, this looks like
+    a treasure chest
+  data:
+    name: First Aid Kit
+    id: -1
+    buffs:
+    - attribute: 4
+      value: 100
