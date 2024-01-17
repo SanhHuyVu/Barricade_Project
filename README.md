@@ -1,4 +1,4 @@
-Since the "GamePlay" scene (GamePlay.unity file) is heavy i uploaded it into google drive:
+Since the "GamePlay" scene (GamePlay.unity file) is heavy i uploaded it to google drive:
 
 https://drive.google.com/drive/folders/1HtAMkXl3A3QiTxBmtaoKSzZXfbrAOMfO?usp=drive_link
 
