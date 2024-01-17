@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2ec56336b186d4cb00e2b559e57ed4, type: 3}
   m_Name: Sap_Glove
   m_EditorClassIdentifier: 
-  uiDisplay: {fileID: 21300000, guid: 39d2d304b18c9dd41bed0f3fc1323c4d, type: 3}
+  uiDisplay: {fileID: 21300000, guid: 143558e371d74cf46b2e79cba4fb00f5, type: 3}
   stackable: 0
   isConsumable: 0
   type: 6
   model: {fileID: 0}
+  trapBlueprint: {fileID: 0}
   modelPosition: {x: 0, y: 0, z: 0}
   modelRotation: {x: 0, y: 0, z: 0}
   groundItemPrefab: {fileID: 3984648018551081435, guid: f8ea05e0ac941614b911216dd468e6c9,
@@ -30,7 +31,7 @@ MonoBehaviour:
     self-defense and is legal in most areas, unlike knuckles
   data:
     name: 
-    id: -1
+    id: 162
     buffs:
     - attribute: 0
       value: 3

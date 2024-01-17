@@ -26,6 +26,15 @@ public class Notification : MonoBehaviour
         if (notifying) return;
 
         notifying = true;
+        notifyText.color = Color.white;
+        StartCoroutine(TypeLine(message, displaySpeed, messageExistTime));
+    }
+    public void DisplayMessage(string message, float displaySpeed, float messageExistTime, Color color)
+    {
+        if (notifying) return;
+
+        notifying = true;
+        notifyText.color = color;
         StartCoroutine(TypeLine(message, displaySpeed, messageExistTime));
     }
 

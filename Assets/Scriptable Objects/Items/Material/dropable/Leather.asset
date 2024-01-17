@@ -17,6 +17,7 @@ MonoBehaviour:
   isConsumable: 0
   type: 9
   model: {fileID: 0}
+  trapBlueprint: {fileID: 0}
   modelPosition: {x: 0, y: 0, z: 0}
   modelRotation: {x: 0, y: 0, z: 0}
   groundItemPrefab: {fileID: 3984648018551081435, guid: f8ea05e0ac941614b911216dd468e6c9,
@@ -24,9 +25,9 @@ MonoBehaviour:
   craftingTime: 0
   useCoolDown: 0
   useTime: 0
-  dropChance: 55
+  dropChance: 70
   description: 
   data:
     name: Leather
-    id: 39
+    id: 38
     buffs: []

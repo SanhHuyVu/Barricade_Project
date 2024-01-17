@@ -62,7 +62,7 @@ public class Canvas_DestinationPointer : MonoBehaviour
 
     public void ToggleOnOff(bool on)
     {
-        if (gameObject.activeSelf != on) gameObject.SetActive(on);
+        if (gameObject?.activeSelf != on) gameObject.SetActive(on);
     }
 
     public float GetAngleFromVector(Vector3 dir)

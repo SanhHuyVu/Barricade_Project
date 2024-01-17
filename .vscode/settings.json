@@ -51,6 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "_Barricade.sln",
+    "dotnet.defaultSolution": "Barricade_Project.sln",
     "git.ignoreLimitWarning": true
 }

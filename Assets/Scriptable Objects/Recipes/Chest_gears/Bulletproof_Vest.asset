@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7fd5002c7f677184a9c64d75e8b97c8b, type: 3}
-  m_Name: Honey_Water
+  m_Name: Bulletproof_Vest
   m_EditorClassIdentifier: 
-  itemObject: {fileID: 11400000, guid: 22ccda254faef314ba43a1f5a3306531, type: 2}
+  itemObject: {fileID: 11400000, guid: 0a3b3195a12520543aa9c7d9419d2a0a, type: 2}
   requiredComponents:
-  - {fileID: 11400000, guid: 8700fbea1fa4e184da5268b248b9ac02, type: 2}
-  - {fileID: 11400000, guid: 333d501aeb1ac1441ad5469a4c964223, type: 2}
+  - {fileID: 11400000, guid: e6c437f0a4d40914499eedc3dc4fdf9a, type: 2}
+  - {fileID: 11400000, guid: 11d2bfd428ac3144fa89ff64f04094c7, type: 2}
   craftAmount: 1
-  hungerCost: 2
-  spCost: 2
+  hungerCost: 20
+  spCost: 10

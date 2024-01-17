@@ -15,7 +15,6 @@ MonoBehaviour:
   itemObject: {fileID: 11400000, guid: e6c437f0a4d40914499eedc3dc4fdf9a, type: 2}
   requiredComponents:
   - {fileID: 11400000, guid: 1fd18d53d507d5e4eab85fb524882684, type: 2}
-  - {fileID: 11400000, guid: d42b509f9e1aae143b4e70455fac5f1b, type: 2}
   - {fileID: 11400000, guid: 09b12dcc5805dc849a8cdcb85f9f6824, type: 2}
   craftAmount: 1
   hungerCost: 20

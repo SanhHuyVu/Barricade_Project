@@ -99,10 +99,14 @@ public class TimeController : MonoBehaviour, IDataPersistence
             if (currentDay == EnemySpawnManager.Instance.FinalDay)
             {
                 MapManager.Instance.ToggleExtractionPoint(true);
-                message = "I could hear the helicopter, rescue is here";
+                message = "I COULD HEAR THE HELICOPTER, RESCUE IS HERE";
+                Notification.Instance.DisplayMessage(message, 0.1f, 1.5f, Color.green);
             }
-            else message = "Survived another day, gotta prepare for the next night";
-            Notification.Instance.DisplayMessage(message, 0.1f, 1.5f);
+            else
+            {
+                message = "SURVIVED ANOTHER DAY,GOTTA PREPARE FOR THE NEXT NIGHT";
+                Notification.Instance.DisplayMessage(message, 0.1f, 1.5f);
+            }
         }
 
         if (currentTime.Hour == 6) dayAlreadyChanged = false;
@@ -166,7 +170,7 @@ public class TimeController : MonoBehaviour, IDataPersistence
             Debug.Log($"Spawned wave zombies and is nighttime: {IsNightTime()} ({currentTime.ToString("HH:mm")})");
             DataPersistenceManager.Instance.SaveGame();
 
-            string message = "It's night time, the zombies are coming";
+            string message = "IT'S NIGHT TIME, THE ZOMBIES ARE COMING";
             Notification.Instance.DisplayMessage(message, 0.1f, 1.5f);
             // Debug.Log("Night TIme!!");
             // Debug.Log(currentDay - 1);
